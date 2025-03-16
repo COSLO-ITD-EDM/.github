@@ -1,6 +1,6 @@
 ---
 name: Epic
-about: Tracks a large body of work broken into smaller tasks.
+description: Tracks a large body of work broken into smaller tasks.
 labels: ["Epic"]
 type: Epic
 
