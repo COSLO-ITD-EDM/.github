@@ -1,11 +1,7 @@
----
 name: Epic
 description: Tracks a large body of work broken into smaller tasks.
 labels: ["Epic"]
 type: Epic
-
----
-
 body: 
   - type: textarea
     attributes:
