@@ -29,4 +29,4 @@ body:
         - Sanbox
         - Artificial Intelligence
         - Document Management
-      default: 1
+      default: 0
