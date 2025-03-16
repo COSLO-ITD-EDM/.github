@@ -1,0 +1,32 @@
+name: Bug report
+description: Create a report to help us improve
+projects: ["COSLO-ITD-EDM/4"]
+labels: ["bug"]
+type: bug
+body: 
+  - type: textarea
+    attributes:
+      label: Description
+      description: Provide a summary, impact, and steps to reproduce
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity Level
+      description: Choose the severity of the issue
+      options:
+        - Low
+        - Medium
+        - High
+        - Emergency
+  - type: dropdown
+    id: business_area
+    attributes:
+      label: Business Area
+      description: Business Area
+      options:
+        - Sanbox
+        - Artificial Intelligence
+        - Document Management
+      default: 1

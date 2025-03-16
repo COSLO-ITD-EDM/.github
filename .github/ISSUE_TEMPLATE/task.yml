@@ -1,0 +1,11 @@
+---
+name: Task
+about: Represents a specific, actionable work item.
+title: ''
+labels: ["task"]
+type: task
+assignees: ''
+
+---
+
+
