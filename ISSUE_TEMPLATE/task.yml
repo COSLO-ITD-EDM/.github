@@ -1,11 +1,22 @@
----
 name: Task
-about: Represents a specific, actionable work item.
-title: ''
+description: Represents a specific, actionable work item.
 labels: ["task"]
 type: task
-assignees: ''
-
----
-
+body: 
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the task
+    validations:
+      required: true
+  - type: dropdown
+    id: business_area
+    attributes:
+      label: Business Area
+      description: Business Area
+      options:
+        - Sanbox
+        - Artificial Intelligence
+        - Document Management
+      default: 1
 
