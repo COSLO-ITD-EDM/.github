@@ -9,13 +9,3 @@ body:
       description: Describe the business objective and impact.
     validations:
       required: true
-  - type: dropdown
-    id: business_area
-    attributes:
-      label: Business Area
-      description: Business Area
-      options:
-        - Sanbox
-        - Artificial Intelligence
-        - Document Management
-      default: 0

@@ -9,14 +9,4 @@ body:
       description: Describe the task
     validations:
       required: true
-  - type: dropdown
-    id: business_area
-    attributes:
-      label: Business Area
-      description: Business Area
-      options:
-        - Sanbox
-        - Artificial Intelligence
-        - Document Management
-      default: 1
 
