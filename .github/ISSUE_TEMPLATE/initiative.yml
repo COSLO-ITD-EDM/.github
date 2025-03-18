@@ -1,0 +1,10 @@
+name: Initiative
+description: A high-level goal that guides one or more Epics toward a common objective.
+type: Initiative
+body: 
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the business goal and impact.
+    validations:
+      required: true
