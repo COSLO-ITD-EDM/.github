@@ -1,0 +1,12 @@
+name: Task
+description: Represents a specific, actionable work item.
+labels: ["task"]
+type: task
+body: 
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the task
+    validations:
+      required: true
+

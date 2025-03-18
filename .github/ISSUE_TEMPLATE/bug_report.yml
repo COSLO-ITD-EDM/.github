@@ -1,0 +1,21 @@
+name: Bug report
+description: Create a report to help us improve
+labels: ["bug"]
+type: bug
+body: 
+  - type: textarea
+    attributes:
+      label: Description
+      description: Provide a summary, impact, and steps to reproduce
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity Level
+      description: Choose the severity of the issue
+      options:
+        - Low
+        - Medium
+        - High
+        - Emergency

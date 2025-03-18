@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest an idea for this project
+labels: ["feature"]
+type: feature
+body: 
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the new feature and business impact
+    validations:
+      required: true
