@@ -1,0 +1,20 @@
+name: KTLO
+description: Maintenance, bug fixes, support, small enhancements
+type: KTLO
+body: 
+  - type: textarea
+    attributes:
+      label: Description
+      description: Provide a summary and impact.  If applicable, include steps to reproduce.
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity Level
+      description: Choose the severity of the need or issue
+      options:
+        - Low
+        - Medium
+        - High
+        - Emergency
