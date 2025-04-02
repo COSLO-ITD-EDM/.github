@@ -1,0 +1,10 @@
+name: Learning
+description: Effort invested in improving workforce readiness, domain expertise, or the team’s ability to support strategic initiatives.
+type: Learning
+body: 
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the learning effort and how it helps.
+    validations:
+      required: true
